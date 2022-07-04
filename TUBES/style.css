@@ -1,0 +1,245 @@
+/* menghilangkan scroll */
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* mengatur gambar guesthouse besar di home */
+.mainpict{
+    background-image: url("Gambar/gambarutama.png");
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+/* mengatur posisi 2 dropdown agar sejajar/tidak membuat baris baru */
+.dropdown{
+display: inline-block;
+}
+
+/* mengatur style dropdown/option */
+.opt{    
+background-color: #F6EEEE;
+border-radius: 5px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 15px;
+height: 35px;
+list-style: none;
+margin-right: 15px;
+position: relative;
+top: 295px;
+text-align: center;
+width: 235px;
+}
+
+/* mengatur style kotak nama cabang di home */
+.kotak{
+background: #F6EEEE;
+border-radius: 5px;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+display: block;
+height: 40px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 75px;
+transition: transform .2s;
+width: 235px;
+}
+
+/* mengatur kotak dan nama cabang di home */
+.kotak:hover{
+    transform: scale(1.1);
+}
+.judul:hover{
+    transform: scale(1.1);
+}
+
+/* mengatur nama cabang di home*/
+.judul{
+color: black;
+position: relative;
+text-align: center;
+top: 7px;
+transition: transform .2s;
+}
+
+/* menghilangkan underlined link pada nama cabang di home */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/* mengatur posisi 3 card jumlah kamar di home */
+.card{
+display: flex;
+margin-top: 50px;
+}
+
+/* mengatur posisi card jumlah kamar kosong */
+.card1{
+    background-color: #FFFFFF;
+    border: 0.2px solid #888888;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 196px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 201px;
+}
+
+/* mengatur posisi icon kamar kosong */
+.imgcard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+/* mengatur posisi icon jumlah kamar */
+.imgcard2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+/* mengatur posisi deskripsi card kamar kosong */
+.carddesk{
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* mengatur posisi deskripsi card jumlah kamar */
+.carddesk2{
+    color: #FFFFFF;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* mengatur posisi card jumlah kamar */
+.card2{
+    background: #EF512E;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    height: 196px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 201px;
+}
+
+/* mengatur posisi card jumlah kamar terbooking*/
+.card3{
+    background-color: #FFFFFF;
+    border: 0.1px solid #888888;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 196px;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 201px;
+}
+
+/* mengatur style nama cabang di halaman detail */
+.namacabang{
+    background-color: #EF512E;
+    border-radius: 3px;
+    height: 35px;
+    margin-left: 35px;
+    text-align: center;
+    width: 160px;
+}
+
+/* mengatur style informasi tersedia di halaman detail */
+.tersedia{
+    background-color:#D9D9D9;
+    border-radius: 5px;
+    color: green;
+    height: 22px;
+    text-align: center ;
+    width: 95px;
+}
+
+/* mengatur style informasi tersedia di halaman detail */
+.tdktersedia{
+    background-color:#D9D9D9;
+    border-radius: 5px;
+    color: red;
+    height: 22px;
+    text-align: center ;
+    width: 150px;
+}
+
+/* mengatur posisi gambar superior di halaman detail */
+.container{
+    display: flex;
+    margin-top: 400px;
+    transition: transform .2s;
+}
+
+/* mengatur posisi gambar pertama superior dan deluxe di halaman detail */
+.imgkamar1{
+margin-left: auto;
+margin-right: 20px;
+}
+
+/* mengatur posisi gambar kedua superior dan deluxe di halaman detail */
+.imgkamar2{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+/* mengatur posisi gambar ketiga superior dan deluxe di halaman detail */
+.imgkamar3{
+    margin: auto;
+    margin-left: 20px;
+}
+
+/* mengatur style nama kamar di tepi atas gambar superior dan delux */
+.namakamar{
+    background-color: #EF512E;
+    color: white;
+    height: 20px;
+    left:0;
+    position: relative;
+    text-align: center;
+    top: -223px;
+    width: 85px;
+}
+
+/* mengatur posisi gambar deluxe di halaman detail */
+.container2{
+    display: flex;
+    margin-top: 50px;
+    transition: transform .2s;
+}
+
+/* mengatur hover gambar yang akan membesar */
+.imgkamar1:hover{
+    transform: scale(1.1);
+}
+.imgkamar2:hover{
+    transform: scale(1.1);
+}
+.imgkamar3:hover{
+    transform: scale(1.1);
+}
+
+/* mengatur style list nama jenis kamar di halam detail  */
+.jeniskamar{
+    background-color: #F6EEEE;
+    text-align: center;
+    transition: transform .2s;
+    width: 130px;
+}
+
+/* mengatur hover list nama jenis kamar di halam detail  */
+.jeniskamar:hover{
+    transform: scale(1.1);
+}
+
