@@ -11,7 +11,6 @@ function dropdownkota(){
     switch(option)
 			{
 				case "jkt" : {
-                    console.log(option)
 					document.getElementById('jkt').style.display = "inline-block";
 					document.getElementById('bl').style.display = "none";
 					document.getElementById('ygy').style.display = "none";
